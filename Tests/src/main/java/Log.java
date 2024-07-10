@@ -7,6 +7,7 @@ public class Log {
     static Logger logger = Logger.getLogger(Log.class);
 
     public Log(){
+
         DOMConfigurator.configure("log4j.xml");
     }
 

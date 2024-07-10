@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Test_District" time="103.112" tests="30" errors="16" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\90545\Downloads\SeleniumWebAutomation-master (1)\SeleniumWebAutomation-master\Tests\target\test-classes;C:\Users\90545\Downloads\SeleniumWebAutomation-master (1)\SeleniumWebAutomation-master\Tests\target\classes;C:\Users\90545\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\90545\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\90545\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\90545\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\90545\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\90545\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\90545\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\90545\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\90545\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\90545\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\90545\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\90545\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\90545\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\90545\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\90545\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\90545\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\90545\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\90545\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\90545\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\90545\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\90545\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\90545\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\90545\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\90545\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\90545\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\90545\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\90545\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\90545\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\90545\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\90545\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\90545\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\90545\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\90545\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\90545\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\90545\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\90545\AppData\Local\Temp\surefire16334043599211911569\surefirebooter9119966292216346118.jar C:\Users\90545\AppData\Local\Temp\surefire16334043599211911569 2024-07-08T16-03-10_063-jvmRun1 surefire13144244646142388181tmp surefire_018138075704441358647tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\90545\Downloads\SeleniumWebAutomation-master (1)\SeleniumWebAutomation-master\Tests\target\test-classes;C:\Users\90545\Downloads\SeleniumWebAutomation-master (1)\SeleniumWebAutomation-master\Tests\target\classes;C:\Users\90545\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\90545\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\90545\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\90545\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\90545\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\90545\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\90545\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\90545\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\90545\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\90545\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\90545\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\90545\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\90545\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\90545\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\90545\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\90545\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\90545\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\90545\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\90545\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\90545\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\90545\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\90545\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\90545\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\90545\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\90545\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\90545\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\90545\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\90545\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\90545\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\90545\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\90545\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\90545\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\90545\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\90545\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\90545\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\90545\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\90545\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\90545\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\90545"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\90545\Downloads\SeleniumWebAutomation-master (1)\SeleniumWebAutomation-master\Tests"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\90545\AppData\Local\Temp\surefire16334043599211911569\surefirebooter9119966292216346118.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="90545"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\90545\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\90545\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Users\90545\Downloads\SeleniumWebAutomation-master (1)\SeleniumWebAutomation-master\Tests"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1254"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\apache-maven-3.9.6\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\Users\90545\AppData\Local\Microsoft\WindowsApps;C:\Users\90545\AppData\Local\JetBrains\Toolbox\scripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Test_Branch" classname="Test_Branch" time="10.657"/>
+  <testcase name="Test_RetailStore" classname="Test_RetailStore" time="8.419"/>
+  <testcase name="Test_Currency" classname="Test_Currency" time="2.545"/>
+  <testcase name="Test_Currency" classname="Test_country" time="3.464"/>
+  <testcase name="search" classname="Test_Currency" time="1.689"/>
+  <testcase name="search" classname="Test_Client" time="0.387"/>
+  <testcase name="search" classname="Test_country" time="3.012">
+    <error message="Expected condition failed: waiting for visibility of element located by By.xpath: //li/a/span[contains(text() , &apos;Client Management&apos;)] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //li/a/span[contains(text() , 'Client Management')] (tried for 20 second(s) with 500 milliseconds interval)
+	at Test_country.search(Test_country.java:41)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li/a/span[contains(text() , 'Client Management')]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 442a712718a4185b53907cfde3e70707
+*** Element info: {Using=xpath, value=//li/a/span[contains(text() , 'Client Management')]}
+	at Test_country.search(Test_country.java:41)
+</error>
+    <system-out><![CDATA[Description 400 Limited: 400 maximum character limit exceeded
+Contact Number: 30 maximum character limit exceeded
+Contact Person: 100 maximum character limit exceeded
+Contact Number 2 number: Contact Number is Invalid
+2024-07-08 16:04:23,648 ERROR [Log] search()Failed with cause: Expected condition failed: waiting for visibility of element located by By.xpath: //li/a/span[contains(text() , 'Client Management')] (tried for 20 second(s) with 500 milliseconds interval) 
+]]></system-out>
+  </testcase>
+  <testcase name="export" classname="Test_Currency" time="1.409"/>
+  <testcase name="export" classname="Test_Client" time="1.822">
+    <error message="element click intercepted: Element &lt;button type=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot; class=&quot;btn btn-outline dropdown-toggle btn btn-link&quot; style=&quot;color: rgb(0, 0, 0);&quot;&gt;...&lt;/button&gt; is not clickable at point (1256, 135). Other element would receive the click: &lt;div class=&quot;modal fade show&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=126.0.6478.127)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-88054L4&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 987b0afcec67ee8cb91011a302ab9520" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" aria-haspopup="true" aria-expanded="false" class="btn btn-outline dropdown-toggle btn btn-link" style="color: rgb(0, 0, 0);">...</button> is not clickable at point (1256, 135). Other element would receive the click: <div class="modal fade show" role="dialog" tabindex="-1" style="display: block;">...</div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520
+	at Test_Client.export(Test_Client.java:479)
+]]></error>
+    <system-out><![CDATA[Phone Number Space: Phone Number is invalid
+Phone Number: 30 maximum character limit exceeded
+Phone Number Must 3: Phone Number is invalid
+Phone Number: Phone Number is invalid
+Phone Number: Phone Number is invalid
+Phone Number 30 Limited: 30 maximum character limit exceeded
+2024-07-08 16:04:12,834 ERROR [Log] export()Failed with cause: element click intercepted: Element <button type="button" aria-haspopup="true" aria-expanded="false" class="btn btn-outline dropdown-toggle btn btn-link" style="color: rgb(0, 0, 0);">...</button> is not clickable at point (1256, 135). Other element would receive the click: <div class="modal fade show" role="dialog" tabindex="-1" style="display: block;">...</div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520 
+]]></system-out>
+  </testcase>
+  <testcase name="export" classname="Test_District" time="0.855">
+    <error message="Expected condition failed: waiting for visibility of element located by By.cssSelector: #layout-wrapper &gt; div.main-content &gt; div.page-content &gt; div &gt; div &gt; div &gt; div &gt; div &gt; div.d-flex.align-items-center &gt; div.d-flex.flex-wrap.gap-3.align-items-center &gt; div &gt; div:nth-child(2) &gt; button (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.d-flex.align-items-center > div.d-flex.flex-wrap.gap-3.align-items-center > div > div:nth-child(2) > button (tried for 20 second(s) with 500 milliseconds interval)
+	at Test_District.export(Test_District.java:23)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.d-flex.align-items-center > div.d-flex.flex-wrap.gap-3.align-items-center > div > div:nth-child(2) > button"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3606c75d8190fe08696158edf5c79a74
+*** Element info: {Using=css selector, value=#layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.d-flex.align-items-center > div.d-flex.flex-wrap.gap-3.align-items-center > div > div:nth-child(2) > button}
+	at Test_District.export(Test_District.java:23)
+</error>
+    <system-out><![CDATA[Contact Number letter: Contact Number is Invalid
+Contact Number Limit: 30 maximum character limit exceeded
+2024-07-08 16:04:24,529 ERROR [Log] export()Failed with cause: Expected condition failed: waiting for visibility of element located by By.cssSelector: #layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.d-flex.align-items-center > div.d-flex.flex-wrap.gap-3.align-items-center > div > div:nth-child(2) > button (tried for 20 second(s) with 500 milliseconds interval) 
+]]></system-out>
+  </testcase>
+  <testcase name="searchDistrict" classname="Test_District" time="1.517">
+    <error message="Expected condition failed: waiting for visibility of element located by By.cssSelector: #search (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #search (tried for 20 second(s) with 500 milliseconds interval)
+	at Test_District.searchDistrict(Test_District.java:16)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#search"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3606c75d8190fe08696158edf5c79a74
+*** Element info: {Using=css selector, value=#search}
+	at Test_District.searchDistrict(Test_District.java:16)
+</error>
+    <system-out><![CDATA[Currency verileri: Please Select
+AF - Afganistan
+AX - Åland Adalari
+DE - Almanya
+US - Amerika Birlesik Devletleri
+UM - Amerika Birlesik Devletleri'nin küçük dis adalari
+AS - Amerikan Samoasi
+AD - Andorra
+AO - Angola
+AI - Anguilla
+AQ - Antarktika
+AG - Antigua and Barbuda
+AR - Arjantin
+AL - Arnavutluk
+AW - Aruba
+AU - Avustralya
+AT - Avusturya
+AZ - Azerbaycan
+BS - Bahamalar
+BH - Bahreyn
+BD - Banglades
+BB - Barbados
+EH - Bati Sahra
+BY - Belarus
+BE - Belçika
+BZ - Belize
+BJ - Benin
+BM - Bermuda
+AE - Birlesik Arap Emirlikleri
+GB - Birlesik Krallik
+BO - Bolivya
+BQ - Bonaire, Sint Eustatius and Saba
+BA - Bosna-Hersek
+BW - Botswana
+BV - Bouvet Island
+BR - Brezilya
+IO - Britanya Hint Okyanusu Topraklari
+BN - Brunei Darüsselam
+BG - Bulgaristan
+BF - Burkina Faso
+BI - Burundi
+BT - Butan
+TD - Çad
+KY - Cayman Adalari
+GI - Cebelitarik
+CZ - Çekya
+DZ - Cezayir
+CX - Christmas Adasi
+DJ - Cibuti
+CN - Çin
+CC - Cocos (Keeling) Adalari
+CK - Cook Adalari
+CU - Cuba
+CW - Curaçao
+DK - Danimarka
+DO - Dominik Cumhuriyeti
+DM - Dominika
+EC - Ekvador
+GQ - Ekvator Ginesi
+SV - El Salvador
+ID - Endonezya
+ER - Eritre
+AM - Ermenistan
+EE - Estonya
+SZ - Esvatini
+ET - Etiyopya
+FK - Falkland Adalari [Malvinas]
+FO - Faroe Adalari
+MA - Fas
+FJ - Fiji
+CI - Fildisi Sahili
+PH - Filipinler
+PS - Filistin Devleti
+FI - Finlandiya
+FR - Fransa
+TF - Fransiz Güney ve Antarktika Topraklari
+GF - Fransiz Guyanasi
+PF - Fransiz Polinezyasi
+GA - Gabon
+GM - Gambiya
+GH - Gana
+GN - Gine
+GW - Gine-Bissau
+GD - Grenada
+GL - Grönland
+GP - Guadeloupe
+GU - Guam
+GT - Guatemala
+GG - Guernsey
+ZA - Güney Afrika
+GS - Güney Georgia ve Güney Sandwich Adalari
+SS - Güney Sudan
+GE - Gürcistan
+GY - Guyana
+HT - Haiti
+HM - Heard Adasi ve McDonald Adalari
+IN - Hindistan
+HR - Hirvatistan
+NL - Hollanda
+HN - Honduras
+HK - Hong Kong
+HU - Hungary
+IQ - Irak
+IR - Iran
+IE - Ireland
+ES - Ispanya
+IL - Israil
+SE - Isveç
+CH - Isviçre
+IT - Italya
+IS - Izlanda
+JM - Jamaica
+JP - Japonya
+JE - Jersey
+KH - Kamboçya
+CM - Kamerun
+CA - Kanada
+ME - Karadag
+QA - Katar
+KZ - Kazakistan
+KE - Kenya
+CY - Kibris Cumhuriyeti
+KG - Kirgizistan
+KI - Kiribati
+CO - Kolombiya
+KM - Komorlar
+CG - Kongo Cumhuriyeti
+CD - Kongo Demokratik Cumhuriyeti
+KR - Kore Cumhuriyeti
+KP - Kore Demokratik Halk Cumhuriyeti
+CR - Kosta Rika
+VA - Kutsal Makam
+KW - Kuveyt
+MK - Kuzey Makedonya
+MP - Kuzey Mariana Adalari
+LA - Lao Demokratik Halk Cumhuriyeti
+LS - Lesotho
+LV - Letonya
+LR - Liberya
+LY - Libya
+LI - Lihtenstayn
+LT - Litvanya
+LB - Lübnan
+LU - Lüksemburg
+MG - Madagaskar
+MO - Makao
+MW - Malavi
+MV - Maldivler
+MY - Malezya
+ML - Mali
+MT - Malta
+IM - Man Adasi
+MH - Marshall Adalari
+MQ - Martinik
+MU - Mauritius
+YT - Mayotte
+MX - Meksika
+FM - Mikronezya Federal Devletleri
+EG - Misir
+MN - Mogolistan
+MD - Moldova
+MC - Monako
+MS - Montserrat
+MR - Moritanya
+MZ - Mozambik
+MM - Myanmar
+NA - Namibya
+NR - Nauru
+NP - Nepal
+NE - Nijer
+NG - Nijerya
+NI - Nikaragua
+NU - Niue
+NF - Norfolk Adasi
+NO - Norveç
+CF - Orta Afrika Cumhuriyeti
+UZ - Özbekistan
+PK - Pakistan
+PW - Palau
+PA - Panama
+PG - Papua Yeni Gine
+PY - Paraguay
+PE - Peru
+PN - Pitcairn
+PL - Polonya
+PT - Portekiz
+PR - Porto Riko
+RE - Réunion
+RO - Romanya
+RW - Ruanda
+RU - Rusya Federasyonu
+BL - Saint Barthélemy
+SH - Saint Helena, Ascension and Tristan da Cunha
+KN - Saint Kitts and Nevis
+LC - Saint Lucia
+MF - Saint Martin (Fransiz bölümü)
+PM - Saint Pierre and Miquelon
+VC - Saint Vincent ve Grenadinler
+WS - Samoa
+SM - San Marino
+ST - Sao Tome ve Principe
+SN - Senegal
+SC - Seyseller
+SL - Sierra Leone
+CL - Sili
+SG - Singapur
+SX - Sint Maarten (Dutch part)
+RS - Sirbistan
+SK - Slovakya
+SI - Slovenya
+SB - Solomon Adalari
+SO - Somali
+LK - Sri Lanka
+SD - Sudan
+SR - Suriname
+SY - Suriye Arap Cumhuriyeti
+SA - Suudi Arabistan
+SJ - Svalbard Jan Mayen
+TJ - Tacikistan
+TZ - Tanzanya Birlesik Cumhuriyeti
+TH - Tayland
+TW - Tayvan (Çin Eyaleti)
+TL - Timor-Leste
+TG - Togo
+TK - Tokelau
+TO - Tonga
+TT - Trinidad ve Tobago
+TN - Tunus
+TR - Türkiye
+TM - Türkmenistan
+TC - Turks ve Caicos Adalari
+TV - Tuvalu
+UG - Uganda
+UA - Ukrayna
+OM - Umman
+JO - Ürdün
+UY - Uruguay
+VU - Vanuatu
+VE - Venezuela
+VN - Viet Nam
+VG - Virjin Adalari (Britanya)
+WF - Wallis ve Futuna
+YE - Yemen
+NC - Yeni Kaledonya
+NZ - Yeni Zelanda
+CV - Yesil Burun Adalari
+GR - Yunanistan
+ZM - Zambiya
+2024-07-08 16:03:54,420 ERROR [Log] searchDistrict()Failed with cause: Expected condition failed: waiting for visibility of element located by By.cssSelector: #search (tried for 20 second(s) with 500 milliseconds interval) 
+]]></system-out>
+  </testcase>
+  <testcase name="Test_Client" classname="Test_Client" time="1.007">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#layout-wrapper &gt; div.main-content &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div &gt; div &gt; nav &gt; ol &gt; b&quot;}&#10;  (Session info: chrome=126.0.6478.127)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-88054L4&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 987b0afcec67ee8cb91011a302ab9520&#10;*** Element info: {Using=css selector, value=#layout-wrapper &gt; div.main-content &gt; div &gt; div &gt; div:nth-child(1) &gt; div &gt; div &gt; div &gt; nav &gt; ol &gt; b}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#layout-wrapper > div.main-content > div > div > div:nth-child(1) > div > div > div > nav > ol > b"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520
+*** Element info: {Using=css selector, value=#layout-wrapper > div.main-content > div > div > div:nth-child(1) > div > div > div > nav > ol > b}
+	at Test_Client.Test_Client(Test_Client.java:33)
+</error>
+    <system-out><![CDATA[2024-07-08 16:03:55,480 ERROR [Log] Test_Client()Failed with cause: no such element: Unable to locate element: {"method":"css selector","selector":"#layout-wrapper > div.main-content > div > div > div:nth-child(1) > div > div > div > nav > ol > b"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520
+*** Element info: {Using=css selector, value=#layout-wrapper > div.main-content > div > div > div:nth-child(1) > div > div > div > nav > ol > b} 
+]]></system-out>
+  </testcase>
+  <testcase name="addNew_requiredField" classname="Test_Branch" time="7.406"/>
+  <testcase name="addNew_requiredField" classname="Test_RetailStore" time="4.259"/>
+  <testcase name="addNew_requiredField" classname="Test_Client" time="1.307">
+    <error message="element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn btn-link&quot; style=&quot;color: rgb(0, 0, 0);&quot;&gt;...&lt;/button&gt; is not clickable at point (1170, 135). Other element would receive the click: &lt;div class=&quot;modal fade show&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=126.0.6478.127)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-88054L4&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 987b0afcec67ee8cb91011a302ab9520" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" class="btn btn-outline btn btn-link" style="color: rgb(0, 0, 0);">...</button> is not clickable at point (1170, 135). Other element would receive the click: <div class="modal fade show" role="dialog" tabindex="-1" style="display: block;">...</div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520
+	at Test_Client.addNew_requiredField(Test_Client.java:55)
+]]></error>
+    <system-out><![CDATA[2024-07-08 16:04:08,838 ERROR [Log] addNew_requiredField()Failed with cause: element click intercepted: Element <button type="button" class="btn btn-outline btn btn-link" style="color: rgb(0, 0, 0);">...</button> is not clickable at point (1170, 135). Other element would receive the click: <div class="modal fade show" role="dialog" tabindex="-1" style="display: block;">...</div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520 
+]]></system-out>
+  </testcase>
+  <testcase name="addNew_mustUniq" classname="Test_Client" time="1.079">
+    <error message="element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn btn-link&quot; style=&quot;color: rgb(0, 0, 0);&quot;&gt;...&lt;/button&gt; is not clickable at point (1170, 135). Other element would receive the click: &lt;div class=&quot;modal fade show&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=126.0.6478.127)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-88054L4&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 987b0afcec67ee8cb91011a302ab9520" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" class="btn btn-outline btn btn-link" style="color: rgb(0, 0, 0);">...</button> is not clickable at point (1170, 135). Other element would receive the click: <div class="modal fade show" role="dialog" tabindex="-1" style="display: block;">...</div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520
+	at Test_Client.addNew_mustUniq(Test_Client.java:182)
+]]></error>
+    <system-out><![CDATA[Phone Number Letter: Phone Number is invalid
+2024-07-08 16:04:09,919 ERROR [Log] addNew_mustUniq()Failed with cause: element click intercepted: Element <button type="button" class="btn btn-outline btn btn-link" style="color: rgb(0, 0, 0);">...</button> is not clickable at point (1170, 135). Other element would receive the click: <div class="modal fade show" role="dialog" tabindex="-1" style="display: block;">...</div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520 
+]]></system-out>
+  </testcase>
+  <testcase name="addNew_mustUniq" classname="Test_Branch" time="0.117"/>
+  <testcase name="addNew" classname="Test_Client" time="0.976">
+    <error message="element click intercepted: Element &lt;button type=&quot;button&quot; class=&quot;btn btn-outline btn btn-link&quot; style=&quot;color: rgb(0, 0, 0);&quot;&gt;...&lt;/button&gt; is not clickable at point (1170, 135). Other element would receive the click: &lt;div class=&quot;modal fade show&quot; role=&quot;dialog&quot; tabindex=&quot;-1&quot; style=&quot;display: block;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=126.0.6478.127)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-88054L4&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 987b0afcec67ee8cb91011a302ab9520" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="button" class="btn btn-outline btn btn-link" style="color: rgb(0, 0, 0);">...</button> is not clickable at point (1170, 135). Other element would receive the click: <div class="modal fade show" role="dialog" tabindex="-1" style="display: block;">...</div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520
+	at Test_Client.addNew(Test_Client.java:208)
+]]></error>
+    <system-out><![CDATA[2024-07-08 16:04:11,012 ERROR [Log] addNew()Failed with cause: element click intercepted: Element <button type="button" class="btn btn-outline btn btn-link" style="color: rgb(0, 0, 0);">...</button> is not clickable at point (1170, 135). Other element would receive the click: <div class="modal fade show" role="dialog" tabindex="-1" style="display: block;">...</div>
+  (Session info: chrome=126.0.6478.127)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520 
+]]></system-out>
+  </testcase>
+  <testcase name="AddNew" classname="Test_Currency" time="4.247"/>
+  <testcase name="edit_isCorrect" classname="Test_Currency" time="3.554"/>
+  <testcase name="click_export" classname="Test_country" time="0.017">
+    <error message="Cannot invoke &quot;CountryPage.clickCountryExport()&quot; because &quot;this.countryPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "CountryPage.clickCountryExport()" because "this.countryPage" is null
+	at Test_country.click_export(Test_country.java:49)
+</error>
+    <system-out><![CDATA[2024-07-08 16:04:23,667 ERROR [Log] click_export()Failed with cause: Cannot invoke "CountryPage.clickCountryExport()" because "this.countryPage" is null 
+]]></system-out>
+  </testcase>
+  <testcase name="click_addnew" classname="Test_country" time="0.001">
+    <error message="Cannot invoke &quot;CountryPage.clickCountryAddNew()&quot; because &quot;this.countryPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "CountryPage.clickCountryAddNew()" because "this.countryPage" is null
+	at Test_country.click_addnew(Test_country.java:58)
+</error>
+    <system-out><![CDATA[2024-07-08 16:04:23,669 ERROR [Log] click_addnew()Failed with cause: Cannot invoke "CountryPage.clickCountryAddNew()" because "this.countryPage" is null 
+]]></system-out>
+  </testcase>
+  <testcase name="click_details" classname="Test_country" time="0.003">
+    <error message="Cannot invoke &quot;CountryPage.clickCountryEdit()&quot; because &quot;this.countryPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "CountryPage.clickCountryEdit()" because "this.countryPage" is null
+	at Test_country.click_details(Test_country.java:74)
+</error>
+    <system-out><![CDATA[2024-07-08 16:04:23,671 ERROR [Log] click_details()Failed with cause: Cannot invoke "CountryPage.clickCountryEdit()" because "this.countryPage" is null 
+]]></system-out>
+  </testcase>
+  <testcase name="edit_delete" classname="Test_country" time="0.001">
+    <error message="Cannot invoke &quot;CountryPage.clickCountryEdit()&quot; because &quot;this.countryPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "CountryPage.clickCountryEdit()" because "this.countryPage" is null
+	at Test_country.edit_delete(Test_country.java:84)
+</error>
+    <system-out><![CDATA[2024-07-08 16:04:23,672 ERROR [Log] edit_delete()Failed with cause: Cannot invoke "CountryPage.clickCountryEdit()" because "this.countryPage" is null 
+]]></system-out>
+  </testcase>
+  <testcase name="click_edit" classname="Test_country" time="0.002">
+    <error message="Cannot invoke &quot;CountryPage.clickCountryEdit()&quot; because &quot;this.countryPage&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "CountryPage.clickCountryEdit()" because "this.countryPage" is null
+	at Test_country.click_edit(Test_country.java:99)
+</error>
+    <system-out><![CDATA[2024-07-08 16:04:23,673 ERROR [Log] click_edit()Failed with cause: Cannot invoke "CountryPage.clickCountryEdit()" because "this.countryPage" is null 
+]]></system-out>
+  </testcase>
+  <testcase name="Columns" classname="Test_Client" time="18.363">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ag-8-button&quot;]&quot;}&#10;  (Session info: chrome=126.0.6478.127)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-88054L4&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 987b0afcec67ee8cb91011a302ab9520&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;ag-8-button&quot;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ag-8-button"]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520
+*** Element info: {Using=xpath, value=//*[@id="ag-8-button"]}
+	at Test_Client.Columns(Test_Client.java:520)
+</error>
+    <system-out><![CDATA[Country State verileri: Please Select
+CA - Kaliforniya
+State Name: Kaliforniya
+Please Select
+CA - Kaliforniya
+State Name verileri: Kaliforniya
+Please Select
+Country State: Please Select
+State Name verileri: 
+Country State verileri1: Please Select
+State Name Limit: 150 maximum character limit exceeded
+State Name: 
+State Name: 150 maximum character limit exceeded
+City verileri1: Please Select
+City verileri: Please Select
+001 - Adana
+002 - Adiyaman
+003 - Afyon
+444 - Agri
+068 - Aksaray
+005 - Amasyaaaa
+006 - Ankaraaa
+007 - Antalya
+008 - Artvin
+009 - Aydin
+074 - Bartin
+072 - Batman
+069 - Bayburt
+011 - Bilecik
+012 - Bingöl
+013 - Bitlis
+014 - Bolu
+015 - Burdur
+016 - Bursa
+017 - Çanakkale
+018 - Çankiri
+100 - city
+019 - Çorum
+020 - Denizli
+021 - Diyarbakir
+081 - Düzce
+022 - Edirne
+023 - Elazig
+024 - Erzincan
+025 - Erzurum
+026 - Eskisehir
+027 - Gaziantep
+028 - Giresun
+029 - Gümüshane
+030 - Hakkari
+031 - Hatay
+076 - Igdir
+032 - Isparta
+034 - Istanbul
+035 - Izmir
+046 - Kahramanmaras
+078 - Karabük
+070 - Karaman
+037 - Kastamonu
+038 - Kayseri
+079 - Kilis
+071 - Kirikkale
+039 - Kirklareli
+040 - Kirsehir
+041 - Kocaeli
+042 - Konya
+043 - Kütahya
+044 - Malatya
+045 - Manisa
+047 - Mardin
+033 - Mersin
+048 - Mugla
+049 - Mus
+050 - Nevsehir
+051 - Nigde
+052 - Ordu
+080 - Osmaniye
+053 - Rize
+054 - Sakarya
+055 - Samsun
+063 - Sanliurfa
+056 - Siirt
+057 - Sinop
+073 - Sirnak
+058 - Sivas
+059 - Tekirdag
+060 - Tokat
+061 - Trabzon
+062 - Tunceli
+064 - Usak
+065 - Van
+077 - Yalova
+066 - Yozgat
+067 - Zonguldak
+City Name: 150 maximum character limit exceeded
+dsitrict verileri: Please Select
+City Value: Adana
+Postal Code: 150 maximum character limit exceeded
+2024-07-08 16:04:42,891 ERROR [Log] Columns()Failed with cause: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="ag-8-button"]"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62387}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 987b0afcec67ee8cb91011a302ab9520
+*** Element info: {Using=xpath, value=//*[@id="ag-8-button"]} 
+]]></system-out>
+  </testcase>
+  <testcase name="delete" classname="Test_Currency" time="6.308"/>
+  <testcase name="click_grid_reset" classname="Test_country" time="4.517">
+    <error message="Expected condition failed: waiting for element to be clickable: By.cssSelector: #layout-wrapper &gt; div.main-content &gt; div.page-content &gt; div &gt; div &gt; div &gt; div &gt; div &gt; div.ag-theme-alpine &gt; div &gt; div &gt; div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal &gt; div.ag-root.ag-unselectable.ag-layout-normal &gt; div.ag-header.ag-pivot-off.ag-header-allow-overflow &gt; div.ag-pinned-left-header &gt; div &gt; div &gt; div.ag-header-cell-comp-wrapper &gt; div &gt; span &gt; span (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.ag-theme-alpine > div > div > div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal > div.ag-root.ag-unselectable.ag-layout-normal > div.ag-header.ag-pivot-off.ag-header-allow-overflow > div.ag-pinned-left-header > div > div > div.ag-header-cell-comp-wrapper > div > span > span (tried for 20 second(s) with 500 milliseconds interval)
+	at Test_country.click_grid_reset(Test_country.java:111)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.ag-theme-alpine > div > div > div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal > div.ag-root.ag-unselectable.ag-layout-normal > div.ag-header.ag-pivot-off.ag-header-allow-overflow > div.ag-pinned-left-header > div > div > div.ag-header-cell-comp-wrapper > div > span > span"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62383}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 442a712718a4185b53907cfde3e70707
+*** Element info: {Using=css selector, value=#layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.ag-theme-alpine > div > div > div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal > div.ag-root.ag-unselectable.ag-layout-normal > div.ag-header.ag-pivot-off.ag-header-allow-overflow > div.ag-pinned-left-header > div > div > div.ag-header-cell-comp-wrapper > div > span > span}
+	at Test_country.click_grid_reset(Test_country.java:111)
+</error>
+    <system-out><![CDATA[Contact Person: 150 maximum character limit exceeded
+Postal Code: 20 maximum character limit exceeded
+District Name Limit: 150 maximum character limit exceeded
+District Value: 
+Menü öğeleri beklenenle eşleşmiyor.
+2024-07-08 16:04:53,719 ERROR [Log] click_grid_reset()Failed with cause: Expected condition failed: waiting for element to be clickable: By.cssSelector: #layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.ag-theme-alpine > div > div > div.ag-root-wrapper-body.ag-focus-managed.ag-layout-normal > div.ag-root.ag-unselectable.ag-layout-normal > div.ag-header.ag-pivot-off.ag-header-allow-overflow > div.ag-pinned-left-header > div > div > div.ag-header-cell-comp-wrapper > div > span > span (tried for 20 second(s) with 500 milliseconds interval) 
+]]></system-out>
+  </testcase>
+  <testcase name="edit" classname="Test_Currency" time="0.406"/>
+  <testcase name="districtAddNew" classname="Test_District" time="0.431">
+    <error message="Expected condition failed: waiting for visibility of element located by By.cssSelector: #layout-wrapper &gt; div.main-content &gt; div.page-content &gt; div &gt; div &gt; div &gt; div &gt; div &gt; div.d-flex.align-items-center &gt; div.d-flex.flex-wrap.gap-3.align-items-center &gt; div &gt; button (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.d-flex.align-items-center > div.d-flex.flex-wrap.gap-3.align-items-center > div > button (tried for 20 second(s) with 500 milliseconds interval)
+	at Test_District.districtAddNew(Test_District.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.d-flex.align-items-center > div.d-flex.flex-wrap.gap-3.align-items-center > div > button"}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-88054L4', ip: '192.168.1.23', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\90545\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3606c75d8190fe08696158edf5c79a74
+*** Element info: {Using=css selector, value=#layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.d-flex.align-items-center > div.d-flex.flex-wrap.gap-3.align-items-center > div > button}
+	at Test_District.districtAddNew(Test_District.java:34)
+</error>
+    <system-out><![CDATA[2024-07-08 16:04:54,558 ERROR [Log] districtAddNew()Failed with cause: Expected condition failed: waiting for visibility of element located by By.cssSelector: #layout-wrapper > div.main-content > div.page-content > div > div > div > div > div > div.d-flex.align-items-center > div.d-flex.flex-wrap.gap-3.align-items-center > div > button (tried for 20 second(s) with 500 milliseconds interval) 
+]]></system-out>
+  </testcase>
+</testsuite>
